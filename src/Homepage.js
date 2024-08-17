@@ -6,7 +6,7 @@ import {
   Button,
   Segment,
 } from "semantic-ui-react";
-import { Link } from "react-router-dom"; // Link 임포트
+import { Link } from "react-router-dom";
 
 const HomePage = () => (
   <Segment style={{ backgroundColor: "#f2f2f2", border: "none" }}>
@@ -38,4 +38,4 @@ const HomePage = () => (
   </Segment>
 );
 
-export default HomePage; // HomePage로 올바르게 export
+export default HomePage;
