@@ -7,6 +7,7 @@ import {
   Segment,
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import PricingPlanPage from "./routes/PricingPlanPage";
 
 const HomePage = () => (
   <Segment style={{ backgroundColor: "#f2f2f2", border: "none" }}>
@@ -31,6 +32,14 @@ const HomePage = () => (
           </Button>
           <Button as={Link} to="/login" basic style={{ color: "grey" }}>
             Login
+          </Button>
+          <Button
+            as={Link}
+            to="/PricingPlanPage"
+            basic
+            style={{ color: "grey" }}
+          >
+            PricePlan
           </Button>
         </Grid.Column>
       </Grid.Row>
